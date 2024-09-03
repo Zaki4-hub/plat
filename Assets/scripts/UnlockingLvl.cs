@@ -12,7 +12,7 @@ public class GoToNextLevel : MonoBehaviour
         if(collision.CompareTag("Player"))
         {
             UnLockLevel();
-            SceneManager.LoadScene(0);
+            SceneManager.LoadScene(1);
         }
     }
 
@@ -23,7 +23,7 @@ public class GoToNextLevel : MonoBehaviour
 
         if(currentLevel >= PlayerPrefs.GetInt("levels"))
         {
-            PlayerPrefs.SetInt("levels", currentLevel + 1);
+            PlayerPrefs.SetInt("levels", currentLevel);
         }
     }
 }
