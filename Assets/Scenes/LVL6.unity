@@ -435,6 +435,7 @@ MonoBehaviour:
   speed: 3
   jumpforce: 9
   animator: {fileID: 301914975}
+  Joystick: {fileID: 0}
 --- !u!50 &301914973
 Rigidbody2D:
   serializedVersion: 4
